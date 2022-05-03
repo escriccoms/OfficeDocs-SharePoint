@@ -33,7 +33,7 @@ Search discovers information by crawling items on your site. The discovered cont
   
 Not all crawled content or metadata is useful to have in the search index, so the search schema has a list of useful types of content and metadata, called **managed properties**. The index only includes content and metadata from the managed properties. Examples of useful metadata for the index are the author and the title of a document. 
   
-Search comes with relevant crawled properties mapped to managed properties. For example, crawled properties related to author map to a managed property related to author. If you add a managed property, you must map it to a crawled property to get content into the index. After the site, library, or list has been crawled, users can search for the content and metadata of new, or changed managed properties. See [Introducing Search Schema for SharePoint](/archive/blogs/tothesharepoint/introducing-search-schema-for-sharepoint-2013) for more info.
+Search comes with relevant crawled properties mapped to managed properties. For example, crawled properties related to author map to a managed property related to author. If you add a managed property, you must map it to a crawled property to get content into the index. After the site, library, or list has been crawled, users can search for the content and metadata of new, or changed managed properties. See [Schema reference for SharePoint](sharepoint/dev/schema/schema-reference-for-sharepoint) for more info.
 
 > [!NOTE]
 > Numeric data in Microsoft Excel files isn't indexed. For example, the number "123456789" isn't indexed, but the string "PO123456789" is indexed. 
